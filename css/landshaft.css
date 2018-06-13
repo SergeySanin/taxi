@@ -1,0 +1,30 @@
+@media (min-width: 576px) and (max-width: 767px) {
+.banner {
+	padding-left: 20px;
+    padding-right: 20px;
+}
+.logo-link {
+	font-size: 40px;
+}
+.order__text {
+	font-size: 25px;
+}
+.tabs-link {
+	font-size: 15px;
+}
+input[type="submit"] {
+	max-width: 45%;
+	margin: 0 auto;
+}
+.cars {
+	text-align: center;
+}
+.footer-col {
+	width: 50%;
+}
+.img-width {
+	width: 61%;
+}
+
+
+}

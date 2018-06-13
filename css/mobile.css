@@ -1,0 +1,39 @@
+@media (max-width: 575px) {
+.banner {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.logo-link {
+	font-size: 25px;
+}
+.logo-link-sup {
+	font-size: 25px;
+}
+.order__text {
+	font-size: 15px;
+}
+.tabs-link {
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.label {
+	margin-right: 5px;
+}
+input[type="submit"] {
+	max-width: 60%;
+	margin: 0 auto;
+}
+.cars {
+	text-align: center;
+}
+.img-width {
+	width: 35%;
+}
+.footer-col {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+}

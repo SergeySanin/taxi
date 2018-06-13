@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Taxi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/tablet.css">
+	<link rel="stylesheet" href="css/landshaft.css">
+	<link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="banner">
+				<div class="logo">
+					<a class="logo-link" href="javascript:void(0)"><span>Taxi940<sup class="logo-link-sup">ru</sup></span></a>
+				</div>
+				<div class="order">
+					<p class="order__text"><span class="order__text_size">+7 (495)</span> 227-30-07</p>
+					<p class="order__text"><span class="order__text_size">+7 (926)</span> 915-00-15</p>
+					<a class="order-link" href="javascript:void(0)">Online-заказ</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-12">
+				<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+					<li class="nav-item">
+						<a class="tabs-link nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Такси по городу</a>
+					</li>
+					<li class="nav-item">
+						<a class="tabs-link nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Такси в аэропорт</a>
+					</li>
+					<li class="nav-item">
+						<a class="tabs-link nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Такси на вокзал</a>
+					</li>
+				</ul>
+				<div class="tab-content" id="pills-tabContent">
+					<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+						<div class="tarif">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-12 tab-text">
+									<p>День<img src="img/day.png" alt="">(7:00 - 21:00)</p>
+									<p>Минимальный тариф:<span class="tab-text-bold">350 руб.</span> (20 минут)</p>
+									<p>Далее:<span class="tab-text-bold">11</span> руб./минута</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-12 tab-text">
+									<p>Ночь<img src="img/night.png" alt="">(21:00 - 7:00)</p>
+									<p>Минимальный тариф:<span class="tab-text-bold">400 руб.</span> (20 минут)</p>
+									<p>Далее:<span class="tab-text-bold">11</span> руб./минута</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+						<div class="tarif">
+													<div class="row">
+								<div class="col-lg-6 col-md-6 col-12 tab-text">
+									<p>День<img src="img/day.png" alt="">(7:00 - 21:00)</p>
+									<p>Минимальный тариф:<span class="tab-text-bold">350 руб.</span> (20 минут)</p>
+									<p>Далее:<span class="tab-text-bold">11</span> руб./минута</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-12 tab-text">
+									<p>Ночь<img src="img/night.png" alt="">(21:00 - 7:00)</p>
+									<p>Минимальный тариф:<span class="tab-text-bold">400 руб.</span> (20 минут)</p>
+									<p>Далее:<span class="tab-text-bold">11</span> руб./минута</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+						<div class="tarif">
+													<div class="row">
+								<div class="col-lg-6 col-md-6 col-12 tab-text">
+									<p>День<img src="img/day.png" alt="">(7:00 - 21:00)</p>
+									<p>Минимальный тариф:<span class="tab-text-bold">350 руб.</span> (20 минут)</p>
+									<p>Далее:<span class="tab-text-bold">11</span> руб./минута</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-12 tab-text">
+									<p>Ночь<img src="img/night.png" alt="">(21:00 - 7:00)</p>
+									<p>Минимальный тариф:<span class="tab-text-bold">400 руб.</span> (20 минут)</p>
+									<p>Далее:<span class="tab-text-bold">11</span> руб./минута</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="order-form">
+					<h1>Заказ такси</h1>
+					<div class="row">
+						<div class="col-lg-8 col-md-7 col-12">
+							<form action="#">
+								<p>
+								<label for="#day" class="label">Когда:</label>
+									<select name="day" id="day">
+										<option value="today">Сегодня</option>
+										<option value="tomorrow">Завтра</option>
+										<option value="ten">С 1-го по 10-е</option>
+										<option value="twenty">С 11-го по 20-е</option>
+										<option value="thirty">С 21-го по 31-е</option>
+									</select>
+									<select name="hour" id="hour" row="5">
+										<option value="0">00</option>
+										<option value="1">01</option>
+										<option value="2">02</option>
+										<option value="3">03</option>
+										<option value="4">04</option>
+										<option value="5">05</option>
+										<option value="6">06</option>
+										<option value="7">07</option>
+										<option value="8">08</option>
+										<option value="9">09</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+										<option value="13">13</option>
+										<option value="14">14</option>
+										<option value="15">15</option>
+										<option value="16">16</option>
+										<option value="17">17</option>
+										<option value="18">18</option>
+										<option value="19">19</option>
+										<option value="20">20</option>
+										<option value="21">21</option>
+										<option value="22">22</option>
+										<option value="23">23</option>
+									</select>
+									<select name="minute" id="minute">
+										<option value="0">00</option>
+										<option value="1">10</option>
+										<option value="2">20</option>
+										<option value="3">30</option>
+										<option value="4">40</option>
+										<option value="5">50</option>
+									</select>
+									</p>
+									<p>
+										<label for="target" class="label">Куда:</label>
+											<input type="text" name="target" placeholder="например, Шлюзовая наб, 4">
+									</p>
+									<p>
+										<label for="from" class="label" >Откуда:</label>
+											<input type="text" name="from" placeholder="например, Шлюзовая наб, 4">
+									</p>
+								<p class="text-right"><a class="item-link" href="">Сколько это займет времени?</a>
+								</p>
+								<p>
+									<label for="contact" class="label">Представтесь</label>
+								</p>
+								<p class="text-right">
+									<input type="text" name="contact" placeholder="Ваше имя">
+								</p>
+								<p class="text-right">
+									<input type="tel" name="contact" placeholder="+7 (926) 369-25-26">
+								</p>
+							</form>
+						</div>
+						<div class="col-lg-4 col-md-5 col-12">
+							<form action="#">
+								<label for="car-type">Тип автомобиля:</label>
+									<p><input type="radio" name="car-type">Эконом</p>
+									<p><input type="radio" name="car-type">Комфорт</p>
+									<p><input type="radio" name="car-type">Универсал</p>
+								<label for="">Пожелания:</label>
+								<p><input type="checkbox">детское кресло</p>
+								<p><input type="checkbox">салон для курящих</p>
+								<p><input type="checkbox">женское такси</p>
+								<p><input type="checkbox">большой багажник</p>
+							</form>
+							<p class="text-right">
+								<a href="" class="item-link text-right">еще...</a>
+							</p>
+							<input type="submit" class="order-link" value="вызвать такси">
+						</div>
+					</div>
+				</div>
+				<article>
+					<h1>Компания Такси940</h1>
+					<ul>
+						<li>Номер #1 в рейтинге московски такси по версии Таксодром</li>
+						<li>Подача машины за 20 минут с момента заказа</li>
+						<li>Автомобили, оборудованные GPS</li>
+						<li>В парке только иномарки комфорт и эконом класса</li>
+					</ul>
+					<h2>Простой способ заказать быстрое и недорогое такси:</h2>
+					<p>Ваши люди в булочную на таксо не ездят. А наши - ездят! Это быстро, просто и недорого.</p>
+					<ul>
+						<li> Заказ такси в три клика,</li>
+						<li>подача машины за 15 минут,</li>
+						<li>опытные водители,</li>
+						<li>gps-навигация в каждой машине и другие радости, необходимые при поездке в булочную.</li>
+					</ul>
+					<P>Или просто нет желания ехать в метро - Такси 940 понимает вас. И знает, что вам нужно: хорошая иномарка с тихим водителем, который знает названный адрес и не задает лишних вопросов.</P>
+					<P>Вчера я был счастлив, чрезмерно счастлив, донельзя счастлив! Вы хоть раз в жизни, упрямица, меня послушались. Вечером, часов в восемь, просыпаюсь (вы знаете, маточка, что я часочек-другой люблю поспать после должности), свечку достал, приготовляю бумаги, чиню перо, вдруг, невзначай, подымаю глаза, -- право, у меня сердце нот так и запрыгало! Так вы-таки поняли, чего мне хотелось, чего сердчишку моему хотелось! Вижу, уголочек занавески у окна вашего загнут и прицеплен к горшку с бальзамином, точнехонько так, как я вам тогда намекал; тут же показалось мне, что и личико ваше мелькнуло у окна, что и вы ко мне из комнатки вашей смотрели, что и вы обо мне думали. И как же мне досадно было, голубчик мой, что миловидного личика-то вашего я не мог разглядеть хорошенько! Вижу, уголочек занавески у окна вашего загнут и прицеплен к горшку с бальзамином, точнехонько так, как я вам тогда намекал; тут же показалось мне, что и личико ваше мелькнуло у окна, что и вы ко мне из комнатки вашей смотрели, что и вы обо мне думали. И как же мне досадно было, голубчик мой, что миловидного личика-то вашего я не мог разглядеть хорошенько! Вижу, уголочек занавески у окна вашего загнут и прицеплен к горшку!</P>
+					<P>И как же мне досадно было, голубчик мой, что миловидного личика-то вашего я не мог разглядеть хорошенько! Вижу, уголочек занавески у окна вашего загнут и прицеплен к горшку с бальзамином, точнехонько так, как я вам тогда намекал; тут же показалось мне, что и личико ваше мелькнуло у окна, что и вы ко мне из комнатки вашей смотрели, что и вы обо мне думали. И как же мне досадно было, голубчик мой, что миловидного личика-то вашего я не мог разглядеть хорошенько! Вижу, уголочек занавески у окна вашего загнут и прицеплен к горшку!</P>
+					<P>И как же мне досадно было, голубчик мой, что миловидного личика-то вашего я не мог разглядеть хорошенько! Вижу, уголочек занавески у окна вашего загнут и прицеплен к горшку с бальзамином!</P>
+				</article>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+				<div class="pay">
+					<p class="pay-text"><span>Мы принимаем</span><img src="img/visa.png" alt=""><img src="img/mastercard.png" alt=""></p>
+				</div>
+				<div class="services">
+					<h3 class="aside-title">Услуги</h3>
+					<ul class="aside-list">
+						<li class="list-item"><a class="item-link" href="javascript:void(0)">Встречи в аэропортах</a></li>
+						<li class="list-item"><a class="item-link" href="javascript:void(0)">Встречи на вокзалах</a></li>
+						<li class="list-item"><a class="item-link" href="javascript:void(0)">Аренда авто с водителем</a></li>
+						<li class="list-item"><a class="item-link" href="javascript:void(0)">Корпоративным клиентам</a></li>
+					</ul>
+				</div>
+				<div class="cars">
+					<h3 class="aside-title">Автомобили</h3>
+					<ul class="aside-list">
+						<li class="cars-item"><img src="img/car_1.png" alt="">Комфорт</li>
+						<li class="cars-item"><img src="img/car_2.png" alt="">Бизнес</li>
+						<li class="cars-item"><img src="img/car_3.png" alt="">Представительский</li>
+					</ul>
+					<div class="wrap">
+						<a class="cars-link item-link" href="javascript:void(0)">...и еще много автомобилей</a>
+					</div>
+				</div>
+				<div class="reviews">
+					<h3 class="aside-title">О нас пишут</h3>
+					<p class="reviews-subtitle"><span>Обсуждение:</span> Лучший перевозчик</p>
+					<p class="reviews-subtitle"><span>На сайте:</span><a class="item-link" href="javascript:void(0)"> Таксофорум.ру</a></p>
+					<p class="comment">Лучшее такси в городе. Никто еще не отвозил меня домой так, как это сделал водитель службы Такси 940. Потрясающе! Буду пользователь услугами службы ежедневно, даже если никуда не поеду.</p>
+				</div>
+				<div class="reviews">
+					<p class="reviews-subtitle"><span>Обсуждение:</span> Лучший перевозчик</p>
+					<p class="reviews-subtitle"><span>На сайте:</span><a class="item-link" href="javascript:void(0)"> Таксофорум.ру</a></p>
+					<p class="comment">Лучшее такси в городе. Никто еще не отвозил меня домой так, как это сделал водитель службы Такси 940. Потрясающе! Буду пользователь услугами службы ежедневно, даже если никуда не поеду.</p>
+				</div>
+				<div class="reviews">
+					<p class="reviews-subtitle"><span>Обсуждение:</span> Лучший перевозчик</p>
+					<p class="reviews-subtitle"><span>На сайте:</span><a class="item-link" href="javascript:void(0)"> Таксофорум.ру</a></p>
+					<p class="comment">Лучшее такси в городе. Никто еще не отвозил меня домой так, как это сделал водитель службы Такси 940. Потрясающе! Буду пользователь услугами службы ежедневно, даже если никуда не поеду.</p>
+					<div class="wrap">
+						<a class="item-link" href="javascript:void(0)">Посмотреть все отзывы</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<footer class="clearfix">
+			<div class="footer-col">
+				<p>Продвижение сайта</p>
+				<img class="img-right" src="img/venta_logo.png" alt="">
+				<img class="img-width" src="img/stat.png" alt="">
+			</div>
+			<div class="footer-col">
+				<h3>Такси в аэропорт</h3>
+				<ul class="aside-list">
+					<li class="list-item"><a class="item-link" href="javascript:void(0)">Шереметьево</a></li>
+					<li class="list-item"><a class="item-link" href="javascript:void(0)">Домодедово</a></li>
+					<li class="list-item"><a class="item-link" href="javascript:void(0)">Внуково</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h3>Дополнительные услуги</h3>
+				<ul class="aside-list">
+					<li class="list-item"><a class="item-link" href="javascript:void(0)">Такси на свадьбу</a></li>
+					<li class="list-item"><a class="item-link" href="javascript:void(0)">Ночное такси</a></li>
+					<li class="list-item"><a class="item-link" href="javascript:void(0)">Женское такси</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h3>Информация</h3>
+				<ul class="aside-list">
+					<li class="list-item"><a class="item-link" href="javascript:void(0)">Варианты оплаты</a></li>
+					<li class="list-item"><a class="item-link" href="javascript:void(0)">Расчет стоимости поездки</a></li>
+					<li class="list-item"><a class="item-link" href="javascript:void(0)">Как выбрать такси</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h3>О компании</h3>
+				<ul class="aside-list">
+					<li class="list-item"><a class="item-link" href="javascript:void(0)">Скидки и акции</a></li>
+					<li class="list-item"><a class="item-link" href="javascript:void(0)">Расчет стоимости поездки</a></li>
+					<li class="list-item"><a class="item-link" href="javascript:void(0)">Диспетчерская служба</a></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+	<div class="copyright">
+		<p class="text-center">© 2005–2012 Такси940</p>
+	</div>
+
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/popper.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

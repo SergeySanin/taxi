@@ -1,0 +1,36 @@
+@media (min-width: 768px) and (max-width: 991px) {
+.banner {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.tabs-link {
+	font-size: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.pay-text span {
+	display: inline-block;
+	margin-right: 85px;
+}
+.footer-col {
+	width: 33%;
+}
+input {
+	width: 100%;
+}
+.label {
+	margin-right: 50px;
+}
+select {
+	margin-bottom: 15px;
+}
+input[type="submit"] {
+	display: block;
+	margin-top: 112px;
+}
+.cars {
+	text-align: center;
+	padding-right: 1px;
+}
+
+}

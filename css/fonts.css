@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'ArialMT';
+    src: url('../fonts/ArialMT.eot');
+    src: url('../fonts/ArialMT.eot') format('embedded-opentype'),
+         url('../fonts/ArialMT.woff2') format('woff2'),
+         url('../fonts/ArialMT.woff') format('woff'),
+         url('../fonts/ArialMT.ttf') format('truetype'),
+         url('../fonts/ArialMT.svg#ArialMT') format('svg');
+}
+@font-face {
+    font-family: 'ArialBoldMT';
+    src: url('../fonts/ArialBoldMT.eot');
+    src: url('../fonts/ArialBoldMT.eot') format('embedded-opentype'),
+         url('../fonts/ArialBoldMT.woff2') format('woff2'),
+         url('../fonts/ArialBoldMT.woff') format('woff'),
+         url('../fonts/ArialBoldMT.ttf') format('truetype'),
+         url('../fonts/ArialBoldMT.svg#ArialBoldMT') format('svg');
+}
+@font-face {
+    font-family: 'verdana';
+    src: url('../fonts/verdana.eot');
+    src: url('../fonts/verdana.eot') format('embedded-opentype'),
+         url('../fonts/verdana.woff2') format('woff2'),
+         url('../fonts/verdana.woff') format('woff'),
+         url('../fonts/verdana.ttf') format('truetype'),
+         url('../fonts/verdana.svg#verdana') format('svg');
+}
+@font-face {
+    font-family: 'verdanab';
+    src: url('../fonts/verdanab.eot');
+    src: url('../fonts/verdanab.eot') format('embedded-opentype'),
+         url('../fonts/verdanab.woff2') format('woff2'),
+         url('../fonts/verdanab.woff') format('woff'),
+         url('../fonts/verdanab.ttf') format('truetype'),
+         url('../fonts/verdanab.svg#verdanab') format('svg');
+}
+@font-face {
+    font-family: 'Myriad Pro - Semibold';
+    src: url('../fonts/Myriad Pro - Semibold.eot');
+    src: url('../fonts/Myriad Pro - Semibold.eot') format('embedded-opentype'),
+         url('../fonts/Myriad Pro - Semibold.woff2') format('woff2'),
+         url('../fonts/Myriad Pro - Semibold.woff') format('woff'),
+         url('../fonts/Myriad Pro - Semibold.ttf') format('truetype'),
+         url('../fonts/Myriad Pro - Semibold.svg#MyriadProSemibold') format('svg');
+}
+@font-face {
+    font-family: 'Tahoma';
+    src: url('../fonts/Tahoma.eot');
+    src: url('../fonts/Tahoma.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tahoma.woff2') format('woff2'),
+        url('../fonts/Tahoma.woff') format('woff'),
+        url('../fonts/Tahoma.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Tahoma-Bold';
+    src: url('../fonts/Tahoma-Bold.eot');
+    src: url('../fonts/Tahoma-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tahoma-Bold.woff2') format('woff2'),
+        url('../fonts/Tahoma-Bold.woff') format('woff'),
+        url('../fonts/Tahoma-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
